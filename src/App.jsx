@@ -1,9 +1,14 @@
 import React from 'react'
+import styles from './style'
 
 function App() {
   return (
-    <div className='text-3xl font-bold bg-amber-400'>
-      <h1 className='text-fuchsia-950'>First React app</h1>
+    <div className='bg-black w-full overflow-hidden'>
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          Navbar
+        </div>
+      </div>
     </div>
   )
 }
