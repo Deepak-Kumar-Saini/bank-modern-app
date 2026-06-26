@@ -9,6 +9,23 @@ function App() {
           Navbar
         </div>
       </div>
+      <div className={`bg-black ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth}`} >
+          Hero
+        </div>
+      </div>
+      <div className={`bg-black ${styles.paddingX} ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth}`} >
+          stats
+          business
+          billing
+          carddeal
+          testimonials
+          clients
+          CTA
+          Footer
+        </div>
+      </div>
     </div>
   )
 }
