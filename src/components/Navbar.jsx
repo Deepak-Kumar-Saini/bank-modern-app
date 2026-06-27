@@ -1,8 +1,11 @@
 import React from 'react'
+import {logo} from '../assets'
 
 function Navbar() {
   return (
-    <div className='text-amber-400'>Navbar</div>
+    <nav className='w-full navbar py-6 flex justify-between items-center'>
+        <img src={logo} alt="logo" />
+    </nav>
   )
 }
 
